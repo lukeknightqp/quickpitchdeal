@@ -5,10 +5,7 @@ export const metadata: Metadata = {
   title: "Quick Pitch Deal",
   description: "A community of the next generation of entrepreneurs and operators gaining collective access to top tier investment opportunities.",
   icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/icon.png', type: 'image/png' },
-    ],
+    icon: '/favicon.ico',
   }
 }
 
@@ -20,8 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.png" type="image/png" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body>{children}</body>
     </html>
