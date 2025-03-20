@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',  // Enable static exports
   images: {
-    domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com'],
+    unoptimized: true
   },
+  // Ensure trailing slashes are handled correctly
+  trailingSlash: true,
   reactStrictMode: true,
 }
 

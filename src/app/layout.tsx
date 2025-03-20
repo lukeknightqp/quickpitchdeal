@@ -7,8 +7,17 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        rel: 'icon',
         url: "/icon.png",
         type: "image/png",
+        sizes: "32x32"
+      }
+    ],
+    shortcut: [
+      {
+        url: "/icon.png",
+        type: "image/png",
+        sizes: "32x32"
       }
     ]
   }
@@ -22,7 +31,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/icon.png" type="image/png" />
+        <link rel="shortcut icon" type="image/png" href="/icon.png" />
+        <link rel="icon" type="image/png" href="/icon.png" sizes="32x32" />
       </head>
       <body>{children}</body>
     </html>
