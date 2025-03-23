@@ -156,9 +156,9 @@ export default function Home() {
               alt="Quick Pitch Deal Logo"
               className="h-6"
             />
-            <p className="text-sm leading-loose text-center md:text-left">
-              &copy; {new Date().getFullYear()} Quick Pitch Deal. All rights reserved. Quick Pitch is not regulated by
-              the UK Financial Conduct Authority.
+            <p className="text-xs leading-relaxed text-center md:text-left max-w-4xl">
+              Copyright. All rights reserved. "quick pitch deal" is the trading name of Quick Pitch Ltd (CRN: 16257364) of 16 Evelyn Terrace , London, TW9 2TQ. 
+              Quick Pitch is not regulated by the UK Financial Conduct Authority. Information provided is for informational purposes only and does not constitute financial advice or an offer to buy/sell securities. Private market investments carry risks, including capital loss, and are not suitable for all investors. Past performance is not indicative of future results. Seek independent financial advice before investing.
             </p>
           </div>
           <div className="flex items-center gap-4">
@@ -176,10 +176,10 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <Link href="#" className="text-sm underline underline-offset-4">
+            <Link href="/terms" className="text-sm underline underline-offset-4">
               Terms
             </Link>
-            <Link href="#" className="text-sm underline underline-offset-4">
+            <Link href="/privacy" className="text-sm underline underline-offset-4">
               Privacy
             </Link>
           </div>
