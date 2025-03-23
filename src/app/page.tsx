@@ -22,7 +22,7 @@ export default function Home() {
           <div className="flex flex-1 items-center justify-end space-x-4">
             <nav className="flex items-center space-x-4">
               <Button className="bg-[#583beb] text-white hover:bg-[#583beb]/90" asChild>
-                <Link href="https://zesty-socks-8fd.notion.site/quick-pitch-deal-1bb3a7e25c7680e09381d19950d22be4?pvs=4" target="_blank" rel="noopener noreferrer">Apply</Link>
+                <Link href="/apply">Apply</Link>
               </Button>
             </nav>
           </div>
@@ -136,9 +136,7 @@ export default function Home() {
               </div>
               <div className="flex justify-center lg:col-span-2 mt-6">
                 <Link
-                  href="https://zesty-socks-8fd.notion.site/quick-pitch-deal-1bb3a7e25c7680e09381d19950d22be4?pvs=4"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/apply"
                   className="bg-[#583beb] rounded-md py-3 w-full max-w-4xl text-center hover:bg-[#583beb]/90 transition-colors"
                 >
                   <p className="text-center text-white font-medium">Apply Now</p>
